@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    border-bottom: 4px solid green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.content{
+    border-bottom: 4px solid green;
+}
+.menu-section{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 189.75px;
+    padding:50px 100px;
+    height: 50px;
+    color: white;
+}
+.menu{
+    margin: auto;
+    max-width: 1000px;
+}
+div .item-1, div .item-2{
+    border: 1px solid green;
+    height: 100px;
+    padding: 10px;
+    border-radius: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.menu h2{
+    color: white;
+    border-radius: 7px;
+}
+.item-1 a, .item-2 a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 40px;
+}
+.header h2{
+    color: white;
+}
+.main-header{
+    box-sizing: border-box;
+    padding: 30px;
+    border-bottom: 3px solid yellow;
+    margin-bottom: 10px;
+}
+.main-header h2.header-line{
+    color: yellow;
+}
+form{
+    padding: 15px;
+    border: 1px solid green;
+    box-shadow: 1px 2px 3px 1px black;
+    max-width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+form input{
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+    outline-color: 1px green;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+button[type="submit"]{
+    width: 100px;
+    padding: 6px;
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: verdana;
+    border-radius: 5px;
+}
+.form-header h4.header-line{
+    text-align: center;
+    text-transform: uppercase;
+    color: green;
+    border-bottom: 1px solid green;
+}
+label{
+    color: black;
+}
+.navigation-container{
+    background-color: lightblue;
+    height: 40px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid yellow;
+    padding-bottom: 3px;
+}
+.navigation{
+    max-width: 900px;
+    margin: auto;
+}
+ul{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+li{
+    float:left;
+    margin-top: 10px;
+    border-right: 1px solid green;
+}
+li a{
+    color:black;
+    text-decoration: none;
+    padding:10px;
+    font-size: 16px;
+}
+td button{
+    width:100%;
+    color:white;
+    background-color: rgba(82, 145, 0, 0.795);
+    padding:5px 0;
+}
+div.container{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom: 20px;;
+}
+td{
+    padding: 7px 2px;
+    font-size: 15px;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+th{
+    text-align: left;
+}
+td.centered{
+    text-align: center;
+}
+.search{
+    display: inline-block;
+}
+#search, #number {
+    padding: 7px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline: none;
+}
+.header-list{
+    float: right;
+}
+#error{
+    background-color: red;
+    padding: 7px;
+    text-align: center;
+    display: none;
+}
+.error{
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+.success{
+    background-color: aquamarine;
+    color: white;
+}
+button.unique{
+    width: 100px;
+}
+.logo img{
+    float: left;
+}
+.msgtxt{
+    background-color: aquamarine;
+    padding: 7px;
+    text-align: center;
+    display: none;
+}
+.lend{
+    margin: 10px 0;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border:1px solid rgba(82, 145, 0, 0.795);
+}
+.lend a{
+    text-align: center;
+    text-decoration: none;
+}
+.footer{
+    background-color: rgba(82, 145, 0, 0.795);
+    padding: 20px;
+    margin-top: 10px;
+    border-top: 4px solid yellow;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.searchbutton{
+    margin-left: 10px;
+    width: 70px;
+    padding: 10px;
+    background-color: rgb(0, 255, 115);
+    border: none;
+}
+.searchbutton:hover{
+    opacity: 0.4;
+}
+.small{
+    width: 10px;
+}
+.table-left{
+    float: left;
+}
